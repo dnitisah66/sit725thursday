@@ -1,0 +1,15 @@
+{
+  "name": "week2",
+  "version": "1.0.0",
+  "description": "This is a nodejs and express intro workshop",
+  "main": "server.js",
+  "type": "module",            
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
