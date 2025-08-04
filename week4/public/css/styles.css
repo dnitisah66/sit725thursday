@@ -1,0 +1,35 @@
+.navbar-size {
+  padding: 0 10px;
+}
+
+.user-image-size {
+  height: 60px;
+  margin-top: 2px;
+}
+
+.card {
+  margin-bottom: 20px;
+}
+
+.modal {
+  max-height: 80%;
+  overflow-y: auto;
+}
+
+.collapsible-body {
+  padding: 15px;
+}
+
+.collapsible-header {
+  font-weight: bold;
+  background-color: #f8f8f8;
+  border-bottom: 1px solid #ddd;
+}
+
+#loginBtn {
+  margin-top: 20px;
+}
+
+.container {
+  margin-bottom: 60px;
+}
