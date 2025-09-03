@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>SIT 725 Prac 3</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body style="background-color: #f08080;">
+    <nav>
+      <div class="nav-wrapper container navbar-size">
+        <a href="#" class="brand-logo">
+          <img
+            class="user-image-size circle"
+            src="images/livedemo.png"
+            alt="User"
+          />
+        </a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+          <li>
+            <a
+              target="_blank"
+              href="https://www.linkedin.com/in/nitishsah66?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
+              >LinkedIn</a
+            >
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container center-align" style="margin-top: 60px;">
+      <h4>Welcome to SIT 725 Week 4</h4>
+      <p>
+        This is a demo application that tries to use a few components from
+        Materialize and through this practical we try to have some fun with
+        Materialize and its components
+      </p>
+      <img
+        src="images/livedemo.png"
+        alt="Demo"
+        class="responsive-img"
+        style="max-height: 300px;"
+      />
+      <br /><br />
+      <a id="clickMeButton" class="btn red lighten-1">Click Me</a>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col s12 m4">
+          <div class="card">
+            <div class="card-image">
+              <img src="images/kitten-2.jpg" />
+            </div>
+            <div class="card-content">
+              <span class="card-title">Kitten 1</span>
+              <p><a href="#">About Kitten 1</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m4">
+          <div class="card">
+            <div class="card-image">
+              <img src="images/kitten-2.jpg" />
+            </div>
+            <div class="card-content">
+              <span class="card-title">Kitten 2</span>
+              <p><a href="#">About Kitten 2</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m4">
+          <div class="card">
+            <div class="card-image">
+              <img src="images/kitten-3.jpg" />
+            </div>
+            <div class="card-content">
+              <span class="card-title">Kitten 3</span>
+              <p><a href="#">About Kitten 3</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <ul class="collapsible popout">
+        <li>
+          <div class="collapsible-header">Card One</div>
+          <div class="collapsible-body">
+            <span>This is the body of card one.</span>
+          </div>
+        </li>
+        <li>
+          <div class="collapsible-header">Card Two</div>
+          <div class="collapsible-body">
+            <span>This is the body of card two.</span>
+          </div>
+        </li>
+        <li>
+          <div class="collapsible-header">Card Three</div>
+          <div class="collapsible-body">
+            <span>This is the body of card three.</span>
+          </div>
+        </li>
+      </ul>
+    </div>
+
+    <div class="container center-align">
+      <a class="btn modal-trigger" href="#loginModal" id="loginBtn">Login</a>
+    </div>
+
+    <div id="loginModal" class="modal">
+      <div class="modal-content">
+        <h5>User Information</h5>
+        <p><strong>First Name:</strong> Nitish</p>
+        <p><strong>Last Name:</strong> Sah</p>
+        <p><strong>Number:</strong> +61 123456789</p>
+        <p><strong>Email:</strong> nitish@example.com</p>
+      </div>
+      <div class="modal-footer">
+        <a href="#!" class="modal-close btn-flat">Close</a>
+      </div>
+    </div>
+
+    <div class="container center-align">
+      <h5>Random Number: <span id="number">Waiting...</span></h5>
+    </div>
+
+    <!-- Scripts at the bottom in correct order -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="js/scripts.js"></script>
+  </body>
+</html>

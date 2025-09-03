@@ -1,0 +1,25 @@
+{
+  "name": "week4",
+  "version": "1.0.0",
+  "description": "week4 workshop",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "Nodejs",
+    "Express",
+    "Materialize",
+    "HTML",
+    "JS",
+    "CSS"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^8.17.0",
+    "socket.io": "^4.8.1"
+  }
+}
